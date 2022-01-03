@@ -67,8 +67,10 @@ body{
     
     background-color: rgb(216, 46, 97);
     position: absolute;
-    left: -2vw;
+    left: 3vw;
     bottom: 2vw;
+    font-family: airstream;
+    font-style: italic;
 
 }
 .details-container
@@ -101,6 +103,7 @@ body{
     text-align: center;
     text-transform: uppercase;
     margin: 0;
+    font-family: lakeshor;
 }
 
 body, html{
@@ -140,8 +143,9 @@ body, html{
         
         margin-left: 0;
         overflow: hidden;
-        margin-top: 0;
-        border: 2px solid rgb(214, 35, 50);
+        max-width: 12vw;
+        border-radius: 25%;
+        min-height: 13vw;
         
         
     }
@@ -159,11 +163,11 @@ body, html{
         justify-content: space-around;
     }
     
-    .details-container
-    {
-        margin-left: 5vw;
-        margin-top: 3vw;
-    }
+    /* .details-container */
+    /* { */
+        /* margin-left: 5vw; */
+        /* margin-top: 3vw; */
+    /* } */
 
     .logo-title
     {
