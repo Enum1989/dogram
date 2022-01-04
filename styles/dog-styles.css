@@ -180,6 +180,17 @@ body, html{
         height: 40vw;
     }
     
+    .hidden .details-container
+{
+    display: none;
+}
+.hide-button
+{
+    position: absolute;
+    right: 2vw;
+    top: 2vw;
+}
+    
     
 
   
